@@ -1,0 +1,9 @@
+<?php
+  $_ENV["DEFAULT_PRICE"] = 75;
+  $_ENV["1_YEARLY_PRICE"] = 70;
+  $_ENV["2_YEARLY_PRICE"] = 60;
+  $_ENV["3_YEARLY_PRICE"] = 50;
+  
+  $_ENV["LIMIT_FOR_DISCOUNT"] = 10;
+  $_ENV["DISCOUNT_RATE"] = 0.9;
+?>

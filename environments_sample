@@ -1,0 +1,8 @@
+<?php
+  $_ENV["HOST"]="host = ****";
+  $_ENV["PORT"]="port = ****";
+  $_ENV["DB_NAME"]="dbname = ****";
+  $_ENV["CREDENTIALS"]="user = **** password = ****";
+  $_ENV["TWILIO_SID"]="****";
+  $_ENV["TWILIO_SID_TOKEN"]="****";
+?>
