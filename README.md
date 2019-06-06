@@ -2,12 +2,12 @@ First of all, create environment.php file in config file.
 Then fill environment.php file like the environments_sample file content and
 change 'XXXX' variables with your self-variables.
 
-# Start Server
-# `php -S localhost:4000`
+#### Start Server
+* `php -S localhost:4000`
 
 Your server will run at [http://localhost:4000](http://localhost:4000)
 
-# GET Method - http://localhost:4000/api/sub_number/numbers.php
+#### GET Method - http://localhost:4000/api/sub_number/numbers.php
 
 If result is success:
 ```javascript
@@ -25,7 +25,7 @@ If result isn't success:
 }
 ```
 
-# GET Method - http://localhost:4000/api/main_number/numbers.php
+#### GET Method - http://localhost:4000/api/main_number/numbers.php
 
 If result is success:
 ```javascript
@@ -43,7 +43,7 @@ If result isn't success:
 }
 ```
 
-# POST Method - http://localhost:4000/api/invoce/amount.php
+#### POST Method - http://localhost:4000/api/invoce/amount.php
 
 JSON Example data:
 ```javascript
@@ -72,7 +72,7 @@ If result isn't success:
   message: 'Invoce amount not calculated'
 }
 ```
-# POST Method - http://localhost:4000/api/company/companies.php
+#### POST Method - http://localhost:4000/api/company/companies.php
 
 JSON Example data:
 ```javascript
